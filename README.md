@@ -27,31 +27,21 @@ Tecnologias Utilizadas
 # Como Rodar o Projeto
 
 1. Clone o repositório:
-git clone https://github.com/devkapassos/gestao_casamento.git
-cd eu-noiva
-2. Crie e ative o ambiente virtual:
-python -m venv venv
-source venv/bin/activate  # Para sistemas Unix
-venv\Scripts\activate  # Para Windows
-3. Instale as dependências:
-pip install -r requirements.txt
-4. Execute as migrações:
-python manage.py migrate
-5. Inicie o servidor local:
-python manage.py runserver
-6. Acesse http://127.0.0.1:8000/ no navegador para visualizar a aplicação.
-
-# Estrutura de Código
-eu-noiva/
-├── noivos/
-│   ├── templates/
-│   │   ├── partials/
-│   │   │   └── navbar.html
-│   │   └── base.html
-│   ├── static/
-│   │   └── noivos/
-│   │       └── img/
-│   │           ├── favicon.ico
-│   │           └── logo.webp
-├── manage.py
-└── README.md
+   ```bash
+   git clone https://github.com/devkapassos/gestao_casamento.git
+   cd gestao_casamento
+3. Crie e ative o ambiente virtual:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Para sistemas Unix
+   venv\Scripts\activate  # Para Windows
+5. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+7. Execute as migrações:
+   ```bash
+   python manage.py migrate
+9. Inicie o servidor local:
+    ```bash
+    python manage.py runserver
+11. Acesse http://127.0.0.1:8000/ no navegador para visualizar a aplicação.
